@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  width: 100%;
+  max-width: 560px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+h1 { text-align: center; color: #1e3a8a; margin-bottom: 10px; }
+h2 { text-align:center; color:#1f2937; margin-bottom:10px; }
+
+form { display: flex; flex-direction: column; }
+input[type="email"], input[type="password"], input[type="text"] {
+  padding: 12px; margin: 8px 0;
+  border: 1px solid #cbd5e1; border-radius: 8px;
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+input:focus { border-color: #3b82f6; }
+
+button {
+  padding: 12px; margin-top: 10px;
+  background: #3b82f6; color: white; border: none;
+  border-radius: 8px; font-weight: 600; cursor: pointer;
+}
+button:hover { background: #2563eb; }
+
+.link {
+  text-align: center; color: #3b82f6;
+  margin-top: 12px; cursor: pointer; font-size: 0.9rem;
+}
+
+#message {
+  text-align: center; margin-bottom: 10px;
+  color: #dc2626; font-size: 0.95rem;
+}
+#message.success { color: #16a34a; }
+
+#short-url-display { text-align: center; margin-top: 10px; font-size: 0.95rem; }
+
+ul { list-style: none; padding: 0; margin-top: 10px; }
+li {
+  display: flex; justify-content: space-between; align-items: center;
+  background: #f9fafb; padding: 8px 10px;
+  border: 1px solid #e5e7eb; border-radius: 6px;
+  margin-top: 8px;
+  word-break: break-all;
+}
+
+.delete-btn {
+  background: #dc2626; color: white; border: none;
+  padding: 6px 8px; border-radius: 6px; cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.copy-btn {
+  background: #16a34a; color: white; border: none;
+  padding: 6px 8px; border-radius: 6px; cursor: pointer;
+  font-size: 0.85rem; margin-right: 6px;
+}
+
+.logout-btn {
+  background:#ef4444; margin-top:12px; color: white;
+  padding: 10px; border-radius: 8px; border: n
+}
